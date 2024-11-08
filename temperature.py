@@ -5,4 +5,3 @@ json_data = requests.get(api_key).json()
 def temp():
     temprature= round(json_data["main"]["temp"]-273,1)
     return temprature
-
